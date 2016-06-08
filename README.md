@@ -49,4 +49,10 @@ The columns are:
 The scraping is done with a simple script written using [Scrapy](http://scrapy.org)
 and is available in [src/scrape.py](src/scrape.py).
 
+To run again, make sure you `pip install scrapy` and then just run:
+
+```bash
+scrapy runspider scrape.py
+```
+
 The code for the scraping script is licensed under [MIT](https://beshr.mit-license.org).
