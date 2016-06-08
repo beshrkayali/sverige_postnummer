@@ -1,7 +1,7 @@
 🇸🇪 Sweden's Postnummer CSV
 =============================
 
-This repo includes a single csv file (postcodes.csv) which is a dataset of [all
+This repo includes a single csv file ([postcodes.csv](postcodes.csv)) which is a dataset of [all
 possible post numbers](https://en.wikipedia.org/wiki/List_of_postal_codes_in_Sweden)
 in Sweden, along with names of streets within the postcode's geographic location.
 
@@ -9,7 +9,7 @@ You can read more about the postcodes format used in Sweden on [wikipedia](https
 
 This dataset is scraped from [Posten.se](http://www.posten.se) using the [search
 service](http://www.posten.se/soktjanst/postnummersok/gb/index_v.jspv), as I couldn't
-find a dataset of all postal codes in Sweden with streetnames/box-numbers in each one.
+find a dataset of all postal codes in Sweden with street names and street/box-numbers of each one.
 
 **Note:** Some of these postcodes don't have the entire set of street names and box
 numbers within their area as the search page limits the number of results (~100),
@@ -18,6 +18,7 @@ for example: `647 91`.
 **Here's an example set:**
 
 ```csv
+A,B,C,D,E
 11122,Korgmakargränd,2 - 6,111 22,Stockholm
 11122,Kungsbron,1 - 23,111 22,Stockholm
 11122,Kungsbron,2 - 30,111 22,Stockholm
@@ -39,13 +40,13 @@ for example: `647 91`.
 
 The columns are:
 
-- Post code (as a single integer)
-- Street name
-- Street/post Box No.
-- Post code (as it should be written/displayed)
-- City/Locality
+- **A:** Post code (as a single integer)
+- **B:** Street name
+- **C:** Street/post Box No.
+- **D:** Post code (as it should be written/displayed)
+- **E:** City/Locality
 
 The scraping is done with a simple script written using [Scrapy](http://scrapy.org)
-and is available in `src/scrape.py`.
+and is available in [src/scrape.py](src/scrape.py).
 
 The code for the scraping script is licensed under [MIT](https://beshr.mit-license.org).
