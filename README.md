@@ -1,8 +1,8 @@
-🇸🇪 Sweden's Postnummer Dataset
-=================================
+🇸🇪 Sweden Postnummer Dataset
+===============================
 
 This is  a dataset of [all possible post numbers](https://en.wikipedia.org/wiki/List_of_postal_codes_in_Sweden)
-in Sweden, along with names of streets within the postcode's geographic location, provided in CSV and JSON format.
+in Sweden, along with names of streets within the postcode's geographic location, provided in [CSV](postcodes.csv) and [JSON](postcodes.json) format.
 
 You can read more about the postcodes format used in Sweden on [wikipedia](https://en.wikipedia.org/wiki/Postal_codes_in_Sweden).
 

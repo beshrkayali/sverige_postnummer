@@ -26,11 +26,13 @@ class CsvToJson(object):
         data = self.read_csv()
 
         with io.open(self.json_output, 'w', encoding='utf-8') as jsonfile:
+            jsonfile.write(u'[\n')
             for row in data.items():
                 jsonfile.write(
                     json.dumps(row, ensure_ascii=False).decode("utf-8")
                 )
-                jsonfile.write(u'\n')
+                jsonfile.write(u',\n')
+            jsonfile.write(u']')
 
 if __name__ == '__main__':
     ctj = CsvToJson(
