@@ -37,7 +37,7 @@ class CsvToJson(object):
 if __name__ == '__main__':
     ctj = CsvToJson(
         csv_file='../postcodes.csv',
-        json_output='../postcodess.json',
+        json_output='../postcodes.json',
         aggregate_key='Code'
     )
 
