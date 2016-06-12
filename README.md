@@ -23,4 +23,6 @@ To run again, make sure you `pip install scrapy` and then just run:
 scrapy runspider scrape.py
 ```
 
-The code for the scraping script is licensed under [MIT](https://beshr.mit-license.org).
+Code in scraping script and csv-to-json conversion is licensed under [MIT](https://beshr.mit-license.org).
+
+Need an API? Try: [https://postnummerapi.se/](https://postnummerapi.se/)
