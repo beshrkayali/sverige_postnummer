@@ -1,3 +1,5 @@
+Need an API? Try: [https://postnummerapi.se/](https://postnummerapi.se/)
+
 🇸🇪 Sweden Postnummer Dataset
 ===============================
 
@@ -24,5 +26,3 @@ scrapy runspider scrape.py
 ```
 
 Code in scraping script and csv-to-json conversion is licensed under [MIT](https://beshr.mit-license.org).
-
-Need an API? Try: [https://postnummerapi.se/](https://postnummerapi.se/)
